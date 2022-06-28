@@ -12,6 +12,11 @@ You can choose either a Regional image from the list below or an image from our 
 Version `1.17` was a significant update to Envoy\. See [Updating/migrating to Envoy 1\.17](https://docs.aws.amazon.com/app-mesh/latest/userguide/1.17-migration.html) for more details\.
 Version `1.20.0.1` or later is `ARM64` compatible\.
 For `IPv6` support, Envoy version `1.13` or later is required\.
++ `Public repository`
+
+  ```
+  public.ecr.aws/appmesh/aws-appmesh-envoy:v1.22.0.0-prod
+  ```
 + All [supported](https://docs.aws.amazon.com/general/latest/gr/appmesh.html) Regions other than `me-south-1` and `ap-east-1`, `eu-south-1`, `af-south-1`\. You can replace *Region\-code* with any Region other than `me-south-1` and `ap-east-1`, `eu-south-1`, `af-south-1`\. 
 
   ```
@@ -36,11 +41,6 @@ For `IPv6` support, Envoy version `1.13` or later is required\.
 
   ```
   924023996002.dkr.ecr.af-south-1.amazonaws.com/aws-appmesh-envoy:v1.22.0.0-prod
-  ```
-+ `Public repository`
-
-  ```
-  public.ecr.aws/appmesh/aws-appmesh-envoy:v1.22.0.0-prod
   ```
 
 **Important**  
